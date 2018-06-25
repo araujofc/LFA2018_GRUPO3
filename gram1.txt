@@ -1,0 +1,35 @@
+Gramática Livre de Contexto (ainda com conflitos e recursividade à esquerda).
+
+programa -> comando programa | comando
+
+comando -> if_then
+	 | for_to_do
+	 | for_downto_do
+	 | while_do
+         | repeat_until
+         | atribuicao <PT_VIRG>
+
+exp -> exp operador1 exp
+     | operador2 exp
+     | <AP> exp <FP>
+     | <VAR>
+     | <NUM>
+
+operador1 -> <OP_UN_BIN>
+           | <OP_REL>
+           | <OP_BIN>
+
+operador2 -> <OP_UN_BIN>
+           | <OP_UN>
+           
+if_then -> <IF><AP> exp <FP><THEN> bloco
+
+bloco -> <BEGIN> programa <END> | comando
+
+for_to_do -> <FOR><VAR><ATRIB> exp <TO> exp <DO> bloco
+
+while_do -> <WHILE><AP> exp <OP_REL> exp <FP><DO> bloco
+
+atribuicao -> <VAR><ATRIB> exp
+
+repeat_until -> <REPEAT> programa <UNTIL><AP> exp <OP_REL> exp <FP> 
