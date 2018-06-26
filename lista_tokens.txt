@@ -1,11 +1,11 @@
 Lista de Tokens:
 
 LETRAS: (A|a|...|Z|z)
-DÕGITOS: (0|...|9)
-ALFA = (LETRAS|DÕGITOS|(_))  
+D√çGITOS: (0|...|9)
+ALFA = (LETRAS|D√çGITOS|(_))  
 
 <VAR> = (LETRA|(_))(ALFA)*
-<NUM> = (DÕGITOS)*(.)?(DÕGITOS)+
+<NUM> = (D√çGITOS)*(.)?(D√çGITOS)+
 
 - COMANDOS:
 <BEGIN> = (B|b)(E|e)(G|g)(I|i)(N|n)
