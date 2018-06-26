@@ -1,0 +1,36 @@
+Lista de Tokens:
+
+LETRAS: (A|a|...|Z|z)
+DÍGITOS: (0|...|9)
+ALFA = (LETRAS|DÍGITOS|(_))  
+
+<VAR> = (LETRA|(_))(ALFA)*
+<NUM> = (DÍGITOS)*(.)?(DÍGITOS)+
+
+- COMANDOS:
+<BEGIN> = (B|b)(E|e)(G|g)(I|i)(N|n)
+<END> = (E|e)(N|n)(D|d)
+<WHILE> = (W|h)(H|h)(I|i)(L|l)(E|e)
+<REPEAT> = (R|r)(E|e)(P|p)(E|e)(A|a)(T/t)
+<UNTIL> = (U|u)(N|n)(T|t)(I|i)(L|l)
+<FOR> = (F|f)(O|o)(R|r)
+<TO> = (T|t)(O|o)
+<DO> = (D|d)(O|o)
+<DOWNTO> = (D|d)(O|o)(W|w)(N|n)(T|t)(O|o)
+<IF> = (I|i)(F|f)
+<THEN> = (T|t)(H|h)(E|e)(N|n)
+
+- OPERADORES:
+<PT_VIRG>: ;
+<DOIS_PTS>: :
+<ATRIB>: :=
+<AP>: (
+<FP>: )
+<OP_UN_BIN_ARIT>: (+|-) 
+<OP_BIN_MULT>: (*|/)
+<OP_BIN_REL>: (<|>|=|<=|>=|<>)
+<OP_UN_LOG> = (N|n)(O|o)(T|t)
+<OP_BIN_LOG> = ((A|a)(N|n)(D|d))|((O|o)(R|r))
+ 
+
+
