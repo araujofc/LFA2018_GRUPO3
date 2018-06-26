@@ -1,0 +1,513 @@
+digraph AFD {
+	rankdir=LR;
+	size="59"
+	node [shape = circle];
+
+      subgraph cluster0 { 
+         node [shape = doublecircle]; 
+         q0               
+         label = "<VAR>";
+         color=white 
+      }
+      subgraph cluster2 {  
+         node [shape = doublecircle]; 
+         q2               
+         label = "<VAR>";
+         color=white 
+      }
+      subgraph cluster3 {  
+         node [shape = doublecircle]; 
+         q3
+         label = "<VAR>";
+         color=white 
+      }
+      subgraph cluster4 {  
+         node [shape = doublecircle]; 
+         q4               
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster5 {  
+         node [shape = doublecircle]; 
+         q5               
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster6 {  
+         node [shape = doublecircle]; 
+         q6               
+         label = "<BEGIN>"; 
+         color=white 
+      }
+      subgraph cluster7 {  
+         node [shape = doublecircle]; 
+         q7               
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster8 {  
+         node [shape = doublecircle]; 
+         q8               
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster9 {  
+         node [shape = doublecircle]; 
+         q9               
+         label = "<END>"; 
+         color=white 
+      }
+      subgraph cluster10 {  
+         node [shape = doublecircle]; 
+         q10               
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster11 {  
+         node [shape = doublecircle]; 
+         q11               
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster12 {  
+         node [shape = doublecircle]; 
+         q12              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster13 {  
+         node [shape = doublecircle]; 
+         q13              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster14 {  
+         node [shape = doublecircle]; 
+         q14               
+         label = "<WHILE>"; 
+         color=white 
+      }
+      subgraph cluster15 {  
+         node [shape = doublecircle]; 
+         q15               
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster16 {  
+         node [shape = doublecircle]; 
+         q16             
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster17 {  
+         node [shape = doublecircle]; 
+         q17               
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster18 {  
+         node [shape = doublecircle]; 
+         q18               
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster19 {  
+         node [shape = doublecircle]; 
+         q19              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster20 {  
+         node [shape = doublecircle]; 
+         q20              
+         label = "<DOWNTO>"; 
+         color=white 
+      }
+      subgraph cluster21 {  
+         node [shape = doublecircle]; 
+         q21              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster22 {  
+         node [shape = doublecircle]; 
+         q22              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster23 {  
+         node [shape = doublecircle]; 
+         q23              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster24 {  
+         node [shape = doublecircle]; 
+         q24              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster25 {  
+         node [shape = doublecircle]; 
+         q25              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster26 {  
+         node [shape = doublecircle]; 
+         q26              
+         label = "<REPEAT>"; 
+         color=white 
+      }
+      subgraph cluster27 {  
+         node [shape = doublecircle]; 
+         q27             
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster28 {  
+         node [shape = doublecircle]; 
+         q28              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster29 {  
+         node [shape = doublecircle]; 
+         q29              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster30 {  
+         node [shape = doublecircle]; 
+         q30              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster31 {  
+         node [shape = doublecircle]; 
+         q31              
+         label = "<UNTIL>"; 
+         color=white 
+      }
+      subgraph cluster32 {  
+         node [shape = doublecircle]; 
+         q32              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster33 {  
+         node [shape = doublecircle]; 
+         q33              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster34 {  
+         node [shape = doublecircle]; 
+         q34              
+         label = "<FOR>"; 
+         color=white 
+      }
+      subgraph cluster35 {  
+         node [shape = doublecircle]; 
+         q35              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster36 {  
+         node [shape = doublecircle]; 
+         q36              
+         label = "<TO>"; 
+         color=white 
+      }
+      subgraph cluster37 {  
+         node [shape = doublecircle]; 
+         q37              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster38 {  
+         node [shape = doublecircle]; 
+         q38              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster39 {  
+         node [shape = doublecircle]; 
+         q39              
+         label = "<THEN>"; 
+         color=white 
+      }
+      subgraph cluster40 {  
+         node [shape = doublecircle]; 
+         q40              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster41 {  
+         node [shape = doublecircle]; 
+         q41              
+         label = "<IF>"; 
+         color=white 
+      }
+      subgraph cluster42 {  
+         node [shape = doublecircle]; 
+         q42              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster43 {  
+         node [shape = doublecircle]; 
+         q43             
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster44 {  
+         node [shape = doublecircle]; 
+         q44              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster45 {  
+         node [shape = doublecircle]; 
+         q45              
+         label = "<OP_BIN_LOG>"; 
+         color=white
+      }
+      subgraph cluster46 {  
+         node [shape = doublecircle]; 
+         q46              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster47 {  
+         node [shape = doublecircle]; 
+         q47              
+         label = "<VAR>"; 
+         color=white 
+      }
+      subgraph cluster48 {  
+         node [shape = doublecircle]; 
+         q48              
+         label = "<OP_UN_LOG>"; 
+         color=white 
+      }
+      subgraph cluster49 {  
+         node [shape = doublecircle]; 
+         q49              
+         label = "<PT_VIRG>"; 
+         color=white 
+      }
+      subgraph cluster50 {  
+         node [shape = doublecircle]; 
+         q50              
+         label = "<AP>"; 
+         color=white 
+      }
+      subgraph cluster51 {  
+         node [shape = doublecircle]; 
+         q51              
+         label = "<FP>"; 
+         color=white 
+      }
+      subgraph cluster52 {  
+         node [shape = doublecircle]; 
+         q52              
+         label = "<DOIS_PTS>"; 
+         color=white 
+      }
+      subgraph cluster53 {  
+         node [shape = doublecircle]; 
+         q53              
+         label = "<ATRIB>"; 
+         color=white 
+      }
+      subgraph cluster54 {  
+         node [shape = doublecircle]; 
+         q54              
+         label = "<OP_UN_BIN_ARIT>"; 
+         color=white 
+      }
+      subgraph cluster55 {  
+         node [shape = doublecircle]; 
+         q55              
+         label = "<OP_BIN_REL>"; 
+         color=white 
+      }
+      subgraph cluster56 {  
+         node [shape = doublecircle]; 
+         q56              
+         label = "<OP_BIN_MULT>"; 
+         color=white 
+      }
+      subgraph cluster57 {  
+         node [shape = doublecircle]; 
+         q57              
+         label = "<NUM>"; 
+         color=white 
+      }
+      subgraph cluster59 {  
+         node [shape = doublecircle]; 
+         q59             
+         label = "<NUM>"; 
+         color=white 
+      }
+
+      q0 -> q0 [ label = "ALFA" ];
+      q1 -> q0 [ label = "alfa - B,b - E,e - W,h - D,d - R,r - U,u - F,f - T,t - I,i - M,m - O,o - A,a - N,n - di­gitos" ];
+
+      /* BEGIN */
+      q1 -> q2 [ label = "B,b" ];
+      q2 -> q3 [ label = "E,e" ];
+      q3 -> q4 [ label = "G,g" ];
+      q4 -> q5 [ label = "I,i" ];
+      q5 -> q6 [ label = "N,n" ];
+      q2 -> q0 [ label = "alfa - E,e" ];
+      q3 -> q0 [ label = "alfa - G,g" ]; 
+      q4 -> q0 [ label = "alfa - I,i" ];
+      q5 -> q0 [ label = "alfa - N,n" ];
+      q6 -> q0 [ label = "alfa" ];
+
+      /* END*/
+      q1 -> q7 [ label = "E,e" ];
+      q7 -> q8 [ label = "N,n" ];
+      q8 -> q9 [ label = "D,d" ];
+      q7 -> q0 [ label = "alfa - N,n" ];
+      q8 -> q0 [ label = "alfa - D,d" ]; 
+      q9 -> q0 [ label = "alfa" ];
+
+      /* WHILE */
+      q1 -> q10 [ label = "W,w" ];
+      q10 -> q11 [ label = "H,h" ];
+      q11 -> q12 [ label = "I,i" ];
+      q12 -> q13 [ label = "L,l" ];
+      q13 -> q14 [ label = "E,e" ];
+      q10 -> q0 [ label = "alfa - H,h" ];
+      q11 -> q0 [ label = "alfa - I,i" ]; 
+      q12 -> q0 [ label = "alfa - L,l" ];
+      q13 -> q0 [ label = "alfa - E,e" ];
+      q14 -> q0 [ label = "alfa" ];
+
+      /* DOWNTO */
+      q1 -> q15 [ label = "D,d" ];
+      q15 -> q16 [ label = "O,o" ];
+      q16 -> q17 [ label = "W,w" ];
+      q17 -> q18 [ label = "N,n" ];
+      q18 -> q19 [ label = "T,t" ];
+      q19 -> q20 [ label = "O,o" ];
+      q15 -> q0 [ label = "alfa - O,o - I,i" ];
+      q16 -> q0 [ label = "alfa - W,w" ]; 
+      q17 -> q0 [ label = "alfa - N,n" ];
+      q18 -> q0 [ label = "alfa - T,t" ];
+      q19 -> q0 [ label = "alfa - O,o" ];
+      q20 -> q0 [ label = "alfa" ];
+
+      /* REPEAT */
+      q1 -> q21 [ label = "R,r" ];
+      q21 -> q22 [ label = "E,e" ];
+      q22 -> q23 [ label = "P,p" ];
+      q23 -> q24 [ label = "E,e" ];
+      q24 -> q25 [ label = "A,a" ];
+      q25 -> q26 [ label = "T,t" ];
+      q21 -> q0 [ label = "alfa - E,e" ];
+      q22 -> q0 [ label = "alfa - P,p" ]; 
+      q23 -> q0 [ label = "alfa - E,e" ];
+      q24 -> q0 [ label = "alfa - A,a" ];
+      q25 -> q0 [ label = "alfa - T,t" ];
+      q26 -> q0 [ label = "alfa" ];
+
+      /* UNTIL */
+      q1 -> q27 [ label = "U,u" ];
+      q27 -> q28 [ label = "N,n" ];
+      q28 -> q29 [ label = "T,t" ];
+      q29 -> q30 [ label = "I,i" ];
+      q30 -> q31 [ label = "L,l" ];
+      q27 -> q0 [ label = "alfa - N,n" ];
+      q28 -> q0 [ label = "alfa - T,t" ]; 
+      q29 -> q0 [ label = "alfa - I,i" ];
+      q30 -> q0 [ label = "alfa - L,l" ];
+      q31 -> q0 [ label = "alfa" ];
+
+      /* FOR */
+      q1 -> q32 [ label = "F,f" ];
+      q32 -> q33 [ label = "O,o" ];
+      q33 -> q34 [ label = "R,r" ];
+      q32 -> q0 [ label = "alfa - O,o" ];
+      q33 -> q0 [ label = "alfa - R,r" ]; 
+      q34 -> q0 [ label = "alfa" ];
+
+      /* TO */
+      q1 -> q35 [ label = "T,t" ];
+      q35 -> q36 [ label = "O,o" ];
+      q35 -> q0 [ label = "alfa - O,o - H,h" ];
+      q36 -> q0 [ label = "alfa" ];
+
+      /* THEN */
+      q35 -> q37 [ label = "H,h" ];
+      q37 -> q38 [ label = "E,e" ];
+      q38 -> q39 [ label = "N,n" ];
+      q37 -> q0 [ label = "alfa - E,e" ]; 
+      q38 -> q0 [ label = "alfa - N,n" ];
+      q39 -> q0 [ label = "alfa" ];
+
+      /* IF */
+      q1 -> q40 [ label = "I,i" ];
+      q40 -> q41 [ label = "F,f" ];
+      q40 -> q0 [ label = "alfa - F,f" ];
+      q41 -> q0 [ label = "alfa" ];
+
+      /* OR */
+      q1 -> q42 [ label = "O,o" ];
+      q42 -> q45 [ label = "R,r" ];
+      q42 -> q0 [ label = "alfa - R,r" ];
+      q45 -> q0 [ label = "alfa" ];
+
+      /* AND */
+      q1 -> q43 [ label = "A,a" ];
+      q43 -> q44 [ label = "N,n" ];
+      q44 -> q45 [ label = "D,d" ];
+      q43 -> q0 [ label = "alfa - N,n" ]; 
+      q44 -> q0 [ label = "alfa - D,d" ]; 
+
+      /* NOT */
+      q1 -> q46 [ label = "N,n" ];
+      q46 -> q47 [ label = "O,o" ];
+      q47 -> q48 [ label = "T,t" ];
+      q46 -> q0 [ label = "alfa - O,o" ]; 
+      q47 -> q0 [ label = "alfa - T,t" ]; 
+      q48 -> q0 [ label = "alfa" ];
+
+      /* PT_VIRG */
+      q1 -> q49 [ label = ";" ];
+
+      /* AP */
+      q1 -> q50 [ label = "(" ];
+      
+      /* FP */
+      q1 -> q51 [ label = ")" ];
+
+      /* DOIS_PTS */
+      q1 -> q52 [ label = ":" ];
+
+      /* ATRIB */
+      q52 -> q53 [ label = "=" ];
+
+      /* OP_UN_BIN_ARIT */
+      q1 -> q54 [ label = "+,-" ];
+
+      /* OP_BIN_REL */
+      q1 -> q55 [ label = ">,<,=,<=,>=,<>" ];
+
+      /* OP_BIN_MULT */
+      q1 -> q56 [ label = "*,/" ];
+
+      /* NUM */
+      q1 -> q57 [ label = "di­gitos" ];
+      q57 -> q57 [ label = "di­gitos" ];
+      q1 -> q58 [ label = "." ];
+      q57 -> q58 [ label = "." ];
+      q58 -> q59 [ label = "di­gitos" ];
+      q59 -> q59 [ label = "di­gitos" ];
+
+      node [shape = none, label=""];
+      s -> q1;
+}
