@@ -19,6 +19,7 @@ aux -> operador1 exp aux | lambda
 operador1 -> <OP_UN_BIN_ARIT>
            | <OP_BIN_MULT>
            | <OP_BIN_LOG>
+	   | <OP_BIN_REL>
 
 operador2 -> <OP_UN_BIN_ARITM>
            | <OP_UN_LOG>
