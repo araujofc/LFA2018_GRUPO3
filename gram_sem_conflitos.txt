@@ -1,4 +1,4 @@
-Gramática Livre de Contexto sem conflitos, ambiguidade e recursividade à esquerda.
+GramÃ¡tica Livre de Contexto (sem conflitos, ambiguidade e recursividade Ã  esquerda)
 
 programa -> comando prog
 prog -> programa | lambda
