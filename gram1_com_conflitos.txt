@@ -1,4 +1,4 @@
-Gramática Livre de Contexto (ainda com conflitos e recursividade à esquerda).
+GramÃ¡tica Livre de Contexto (ainda com conflitos e recursividade Ã  esquerda).
 
 programa -> comando programa | comando
 
